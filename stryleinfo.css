@@ -1,0 +1,151 @@
+header {
+    display: flex;
+    min-height: 70px;
+    background-color: #451260;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a {
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+nav ion-icon {
+    font-size: 30px; 
+}
+
+.imgcont {
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contenedor {
+    color: white;
+    background-color: #451260;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    padding: 20px;
+    max-width: 800px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.texto {
+    padding-right: 10px;
+}
+
+.imgfut {
+    max-width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #451260;
+    padding: 10px;
+}
+
+.Futbol {
+    color: white;
+    background-color: #451260;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    padding: 20px;
+    max-width: 800px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.Futbol h2 {
+    text-align: center; 
+    margin-bottom: 15px; 
+}
+
+.imgbasket {
+    max-width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #451260;
+    padding: 10px;
+}
+
+.Basket {
+    color: white;
+    background-color: #451260;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    padding: 20px;
+    max-width: 800px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.Basket h2 {
+    text-align: center; 
+    margin-bottom: 15px; 
+}
+
+.imgvoley {
+    max-width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #451260;
+    padding: 10px;
+}
+
+.Voleibol {
+    color: white;
+    background-color: #451260;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    padding: 20px;
+    max-width: 800px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.Voleibol h2 {
+    text-align: center; 
+    margin-bottom: 15px; 
+}
+
+@media (max-width: 700px){
+    header {
+        flex-direction: column;
+    }
+    nav {
+        padding: 10px 0px;
+    }
+}
